@@ -18,7 +18,8 @@ class Stack {
   }
 
   pop() {
-    return this.dataStorage[--this.top];
+    this.top--;
+    return this.dataStorage.pop();
   }
 
   peek() {
