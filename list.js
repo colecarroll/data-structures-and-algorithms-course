@@ -94,3 +94,8 @@ class List {
     return false;
   }
 }
+
+//iterating through the list
+for (list.front(); list.currentPosition() < list.length(); list.next()) {
+  list.getElement();
+}
